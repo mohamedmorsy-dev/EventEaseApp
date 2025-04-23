@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\pages\\eventdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\pages\\eventdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\pages\\attendancetracker.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\pages\\attendancetracker.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\services\\usersessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\services\\usersessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\pages\\notfound.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\components\\eventcard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\components\\eventcard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\eventeaseapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\eventeaseapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|c:\\users\\223141695\\documents\\c#_training\\projects\\blazorfinalproject\\eventeaseapp\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FF7A6191-B674-EB34-EFC3-71D62FFFB0B2}|EventEaseApp\\EventEaseApp.csproj|solutionrelative:eventeaseapp\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4fc5ff1-28ef-4b04-ad02-6b298310ccc7}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttendanceTracker.razor",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Pages\\AttendanceTracker.razor",
+              "RelativeDocumentMoniker": "EventEaseApp\\Pages\\AttendanceTracker.razor",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Pages\\AttendanceTracker.razor",
+              "RelativeToolTip": "EventEaseApp\\Pages\\AttendanceTracker.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T16:43:23.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventDetails.razor",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Pages\\EventDetails.razor",
+              "RelativeDocumentMoniker": "EventEaseApp\\Pages\\EventDetails.razor",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Pages\\EventDetails.razor",
+              "RelativeToolTip": "EventEaseApp\\Pages\\EventDetails.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T17:58:30.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "EventEaseApp\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Pages\\Register.razor",
+              "RelativeToolTip": "EventEaseApp\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T17:58:50.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Program.cs",
+              "RelativeDocumentMoniker": "EventEaseApp\\Program.cs",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Program.cs",
+              "RelativeToolTip": "EventEaseApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T18:21:38.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\App.razor",
+              "RelativeDocumentMoniker": "EventEaseApp\\App.razor",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\App.razor",
+              "RelativeToolTip": "EventEaseApp\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T18:54:17.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserSessionService.cs",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Services\\UserSessionService.cs",
+              "RelativeDocumentMoniker": "EventEaseApp\\Services\\UserSessionService.cs",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Services\\UserSessionService.cs",
+              "RelativeToolTip": "EventEaseApp\\Services\\UserSessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T16:31:17.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "EventEaseApp\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Pages\\Home.razor",
+              "RelativeToolTip": "EventEaseApp\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T17:25:13.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "EventEaseApp\\Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Services\\EventService.cs",
+              "RelativeToolTip": "EventEaseApp\\Services\\EventService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAwBsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T18:34:57.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NotFound.razor",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Pages\\NotFound.razor",
+              "RelativeDocumentMoniker": "EventEaseApp\\Pages\\NotFound.razor",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Pages\\NotFound.razor",
+              "RelativeToolTip": "EventEaseApp\\Pages\\NotFound.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T18:55:53.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventCard.razor",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Components\\EventCard.razor",
+              "RelativeDocumentMoniker": "EventEaseApp\\Components\\EventCard.razor",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Components\\EventCard.razor",
+              "RelativeToolTip": "EventEaseApp\\Components\\EventCard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T17:21:35.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventModel.cs",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Models\\EventModel.cs",
+              "RelativeDocumentMoniker": "EventEaseApp\\Models\\EventModel.cs",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\Models\\EventModel.cs",
+              "RelativeToolTip": "EventEaseApp\\Models\\EventModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:52:58.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventEaseApp.csproj",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\EventEaseApp.csproj",
+              "RelativeDocumentMoniker": "EventEaseApp\\EventEaseApp.csproj",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\EventEaseApp.csproj",
+              "RelativeToolTip": "EventEaseApp\\EventEaseApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-22T17:54:44.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "EventEaseApp\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\223141695\\Documents\\C#_Training\\Projects\\BlazorFinalProject\\EventEaseApp\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "EventEaseApp\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-22T17:40:44.906Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

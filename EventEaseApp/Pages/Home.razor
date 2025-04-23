@@ -1,0 +1,25 @@
+﻿@page "/"  
+@using EventEaseApp.Components  
+@using EventEaseApp.Models  
+@inject EventService EventService  
+
+<h1>Welcome to EventEase</h1>  
+
+<div class="container">  
+   <Virtualize Items="@EventService._events" Context="eventItem">  
+       <EventCard Title="@eventItem.Title"  
+                  Description="@eventItem.Description"  
+                  Date="@eventItem.Date"  
+                  Location="@eventItem.Location">  
+           <NavLink href="@GetEventDetailsUrl(eventItem)" class="view-details-link">View Details</NavLink>  
+       </EventCard>  
+   </Virtualize>  
+</div>  
+
+@code {  
+   private string GetEventDetailsUrl(EventModel eventItem)  
+   {  
+       var index = EventService._events.IndexOf(eventItem);  
+       return $"/event-details/{index}";  
+   }  
+}

@@ -1,0 +1,33 @@
+﻿@page "/attendance-tracker"
+@inject AttendanceService AttendanceService
+
+<h1>Attendance Tracker</h1>
+
+@if (AttendanceService.GetAttendances().Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Event</th>
+                <th>Registration Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var attendance in AttendanceService.GetAttendances())
+            {
+                <tr>
+                    <td>@attendance.Name</td>
+                    <td>@attendance.Email</td>
+                    <td>@attendance.EventTitle</td>
+                    <td>@attendance.RegistrationTime</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No attendees have registered yet.</p>
+}

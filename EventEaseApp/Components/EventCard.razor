@@ -1,0 +1,15 @@
+@code {
+    [Parameter] public string Title { get; set; }
+    [Parameter] public string Description { get; set; }
+    [Parameter] public DateTime Date { get; set; }
+    [Parameter] public string Location { get; set; }
+    [Parameter] public RenderFragment? ChildContent { get; set; }
+   }
+
+<div class="event-card">
+    <h2>@Title</h2>
+    <p>@Description</p>
+    <p>@Date.ToString("MMMM dd, yyyy")</p>
+    <p>@Location</p>
+    @ChildContent
+</div>

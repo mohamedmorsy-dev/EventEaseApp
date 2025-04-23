@@ -1,0 +1,57 @@
+﻿@page "/event-details/{id:int}"
+@using EventEaseApp.Models
+@inject EventService EventService
+@inject NavigationManager NavigationManager
+
+<h1>Event Details</h1>
+
+@if (Event != null)
+{
+    <div>  
+      <h2>@Event.Title</h2>  
+      <p>@Event.Description</p>  
+      <p>Date: @Event.Date.ToShortDateString()</p>  
+      <p>Location: @Event.Location</p>  
+      <a href="/register/@Event.Title">Register for this event</a>  
+      <br />  
+      <a href="/">back to events list</a>  
+    </div>
+}
+else if (IsLoading)
+{
+    <p>Loading event details...</p>
+}
+else
+{
+    <p>Event not found. Redirecting...</p>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private EventModel? Event;
+    private bool IsLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Event = await EventService.GetEventByIdAsync(Id);
+            if (Event == null)
+            {
+                // Redirect to NotFound page if the event doesn't exist
+                NavigationManager.NavigateTo("/not-found");
+            }
+        }
+        catch (Exception)
+        {
+            // Handle unexpected errors (optional)
+            NavigationManager.NavigateTo("/not-found");
+        }
+        finally
+        {
+            IsLoading = false;
+        }
+    }
+}

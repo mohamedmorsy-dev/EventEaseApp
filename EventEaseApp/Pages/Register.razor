@@ -1,0 +1,71 @@
+﻿@page "/register/{eventTitle}"  
+
+@using System.ComponentModel.DataAnnotations  
+@inject EventEaseApp.Services.UserSessionService UserSessionService  
+@inject AttendanceService AttendanceService  
+
+<h1>Register for Event: @EventTitle</h1>  
+
+@if (UserSessionService.IsSessionActive)  
+{  
+   <p>Welcome back, @UserSessionService.UserName! Your session started at @UserSessionService.SessionStartTime.</p>  
+   <button class="btn btn-danger" @onclick="EndSession">End Session</button>  
+}  
+else  
+{  
+   <EditForm Model="@registrationModel" OnValidSubmit="HandleValidSubmit">  
+       <DataAnnotationsValidator />  
+       <ValidationSummary />  
+
+       <div>  
+           <label for="name">Name:</label>  
+           <input id="name" @bind="registrationModel.Name" class="form-control" />  
+           <ValidationMessage For="@(() => registrationModel.Name)" />  
+       </div>  
+       <div>  
+           <label for="email">Email:</label>  
+           <input id="email" type="email" @bind="registrationModel.Email" class="form-control" />  
+           <ValidationMessage For="@(() => registrationModel.Email)" />  
+       </div>  
+       <button type="submit" class="btn btn-primary">Register</button>  
+   </EditForm>  
+}  
+
+@code {  
+   [Parameter]  
+   public string EventTitle { get; set; }  
+
+   private RegistrationModel registrationModel = new();  
+
+   private void HandleValidSubmit()  
+   {  
+       var attendance = new Attendance  
+       {  
+           Name = registrationModel.Name,  
+           Email = registrationModel.Email,  
+           EventTitle = EventTitle,  
+           RegistrationTime = DateTime.Now  
+       };  
+       // Add attendance tracker  
+       AttendanceService.AddAttendance(attendance);  
+       // session tracker  
+       UserSessionService.StartSession(registrationModel.Name, registrationModel.Email);  
+       // Handle successful form submission  
+       Console.WriteLine($"User Registered: {registrationModel.Name} for Event: {EventTitle}");  
+   }  
+
+   private void EndSession()  
+   {  
+       UserSessionService.EndSession();  
+   }  
+
+   public class RegistrationModel  
+   {  
+       [Required(ErrorMessage = "Name is required.")]  
+       public string Name { get; set; }  
+
+       [Required(ErrorMessage = "Email is required.")]  
+       [EmailAddress(ErrorMessage = "Invalid email address.")]  
+       public string Email { get; set; }  
+   }  
+}
